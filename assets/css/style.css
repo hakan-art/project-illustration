@@ -1,0 +1,361 @@
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+span{
+    display: block;
+}
+header{
+    position: relative;
+}
+nav ul{
+    text-align: right;
+    margin-right: 1%;
+}
+nav ul li{
+    display: inline;
+    margin-left: 2%;
+    font-family: 'Lato', sans-serif;
+}
+div{
+    height: 100vh;
+    position: relative;
+}
+.head{
+    background: url(/assets/img/illustration1.gif) right/contain no-repeat;
+}
+h1
+{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 3.6em;
+    top: 20vh;
+    left: 30vh;
+}
+
+.phead
+{
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    position: absolute;
+    top: 40vh;
+    left: 30vh;
+    line-height: 2em;
+}
+.head ul
+{
+    position: absolute;
+    top: 60vh;
+    left: 30vh;
+    width: 30vw;
+    height: 30vh;
+}
+.head li
+{
+    display: inline;
+       
+}
+.head a{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    display: inline block;
+    width: 9vh;
+    text-decoration: none;
+    margin-right: 0.2vw;
+    border: 1px none black;
+    line-height: 55px;
+    padding: 3% 7%
+    
+}
+.black
+{
+    background: black;
+    color: #fff;
+}
+
+.white{
+    color: black;
+}
+.figure-second{
+    background: url(/assets/img/illustration2.png) center/contain no-repeat;
+    width: 50vw;
+    height: 60vh;
+    top: 5vh;
+    right: 0;
+}
+
+.second-title
+{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 3.6em;
+    top: 20vh;
+    right: 30vh;
+}
+.second-p
+{
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    position: absolute;
+    top: 40vh;
+    right: 35vh;
+    line-height: 2em;
+}
+.figure-third
+{   position: absolute;
+    background: url(/assets/img/illustration3.png) center/contain no-repeat;
+    width: 50vw;
+    height: 60vh;
+    top: 5vh;
+    right: 0;
+}
+.third-title
+{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 3.6em;
+    top: 20vh;
+    left: 30vh;
+}
+.third-p
+{
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    position: absolute;
+    top: 40vh;
+    left: 30vh;
+    line-height: 2em;
+}
+.forth-title
+{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 3.6em;
+    top: 20vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.forth-p
+{
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    position: absolute;
+    top: 35vh;
+    left: 50%;
+    line-height: 2em;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.forth-image{
+    width: 25vw;
+   
+    
+
+}
+.forth-image:hover{
+    
+    border: 1px black;
+    box-shadow: 0px 0px  4px black;
+   
+}
+.forth-section{
+    position: absolute;
+    top: 50vh;
+    left: 10%;
+
+}
+.fifth-title
+{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 3.6em;
+    top: 20vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fifth-p
+{
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    position: absolute;
+    top: 35vh;
+    left: 50%;
+    line-height: 2em;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.fifth-image{
+    width: 35vw;
+    margin-left: 10%;
+}
+.fifth-image:hover{
+    
+    border: 1px black;
+    box-shadow: 0px 0px  4px black;
+}
+.fifth-section
+{   height: 20vh;
+    position: absolute;
+    top: 60vh;
+    width: 100vw;
+}
+.sixth-image{
+    width: 35vw;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.sixth-image:hover{
+    
+    border: 1px black;
+    box-shadow: 0px 0px 3px black;
+}
+.sixth-section
+{   height: 100vh;
+    position: absolute;
+    width: 100vw; 
+}
+.seventh-title
+{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 3.6em;
+    top: 20vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.seventh-p
+{
+    font-family: 'Merriweather', serif;
+    font-size: 1.3em;
+    position: absolute;
+    top: 40vh;
+    left: 50%;
+    line-height: 2em;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+article{
+    position: absolute;
+    top: 70vh;
+    left: 40%;
+    width: 15vw;
+    height: 55vh;
+    background: #F5FBFE;
+}
+h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 5vh;
+}
+h4
+{
+    font-family: 'Merriweather', serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: -0.5vh;
+}
+.year{
+    font-family: 'Merriweather', serif;
+    opacity: .5;
+    text-align: center;
+}
+.paragraph
+{   
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: 1em;
+    line-height: 3vh;
+    margin-left: 6vh;
+}
+.button{
+    
+    margin-left: 2.5vw;
+    color: #fff;
+    background: #24bff2;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    display: inline block;
+    text-decoration: none;
+    border: 1px none black;
+    line-height: 55px;
+    padding: 3% 15%
+    
+}
+footer{
+    position: relative;
+}
+.footer-title{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    font-size: 3.6em;
+    top: 40vh;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+.email{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    opacity: .5;
+    text-align: center;
+    top: 50vh;
+    left: 46%;
+}
+.mail{
+    display: inline-block;
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    top: 56vh;
+    left: 44%;
+    text-decoration: none;
+    color: black;
+}
+.follow{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    top: 59vh;
+    left: 45%;
+    opacity: .5;
+    color: black;
+}
+.social{
+    position: absolute;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    top: 64vh;
+    left: 43%;
+}
+.social li{
+    display: inline;
+}
+.social li a{
+    text-decoration: none;
+    color: black;
+}
+
+.social li a::before{
+    content: ".";
+    font-size: 2em;
+}
+.fb::before{
+    color: #3b5998;
+}
+.ig::before{
+    color: #fcaf45;
+}
+.tw::before{
+   color: #55acee; 
+}
+.yt::before{
+color: #c4302b
+;
+}
+
+
+
+
